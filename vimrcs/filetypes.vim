@@ -75,3 +75,9 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+
+""""""""""""""""""""""""""""""
+" => Gradle section
+""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.gradle setf groovy
